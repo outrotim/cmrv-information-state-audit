@@ -1,0 +1,144 @@
+figure,panel,task,scenario,stage,tier,metric,estimate,ci_lower,ci_upper,category,status,note
+2,A,,absorption_balanced,,I0,oracle_piv_nats,0.106979070146973,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I0,implemented_ifv_nats,0.10840729507303,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I0,fusion_implementation_gap_nats,-0.00142822492605634,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I1,oracle_piv_nats,0.0623716587048309,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I1,implemented_ifv_nats,0.0636353504386307,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I1,fusion_implementation_gap_nats,-0.00126369173379983,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I2,oracle_piv_nats,0.0222777634261652,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I2,implemented_ifv_nats,0.0229863243671611,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I2,fusion_implementation_gap_nats,-0.0007085609409959,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I3,oracle_piv_nats,0.00421829626486051,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I3,implemented_ifv_nats,0.00439074807742862,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_balanced,,I3,fusion_implementation_gap_nats,-0.000172451812568111,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I0,oracle_piv_nats,0.0609551696978738,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I0,implemented_ifv_nats,0.0596822529495724,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I0,fusion_implementation_gap_nats,0.00127291674830136,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I1,oracle_piv_nats,0.0350415841928937,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I1,implemented_ifv_nats,0.0342194990708924,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I1,fusion_implementation_gap_nats,0.000822085122001237,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I2,oracle_piv_nats,0.0123981968865691,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I2,implemented_ifv_nats,0.0118040066006426,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I2,fusion_implementation_gap_nats,0.000594190285926488,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I3,oracle_piv_nats,0.00231381766915139,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I3,implemented_ifv_nats,0.00199595996169769,,,,,Prespecified known-truth simulation aggregate
+2,A,,absorption_rare,,I3,fusion_implementation_gap_nats,0.000317857707453703,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I0,oracle_piv_nats,0.0910535156012008,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I0,implemented_ifv_nats,0.0911198810922347,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I0,fusion_implementation_gap_nats,-6.63654910339095e-05,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I1,oracle_piv_nats,0.0959566848323962,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I1,implemented_ifv_nats,0.0959759058878678,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I1,fusion_implementation_gap_nats,-1.92210554716132e-05,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I2,oracle_piv_nats,0.101185514889232,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I2,implemented_ifv_nats,0.101298353649852,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I2,fusion_implementation_gap_nats,-0.000112838760620843,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I3,oracle_piv_nats,0.104673029869965,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I3,implemented_ifv_nats,0.104943249010864,,,,,Prespecified known-truth simulation aggregate
+2,B,,persistent_unique,,I3,fusion_implementation_gap_nats,-0.000270219140898409,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I0,oracle_piv_nats,0,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I0,implemented_ifv_nats,-5.06119777158143e-05,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I0,fusion_implementation_gap_nats,5.06119777158143e-05,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I1,oracle_piv_nats,0,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I1,implemented_ifv_nats,-5.15575929314782e-05,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I1,fusion_implementation_gap_nats,5.15575929314782e-05,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I2,oracle_piv_nats,0,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I2,implemented_ifv_nats,-7.12427193462983e-05,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I2,fusion_implementation_gap_nats,7.12427193462983e-05,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I3,oracle_piv_nats,0,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I3,implemented_ifv_nats,-7.0937947918398e-05,,,,,Prespecified known-truth simulation aggregate
+2,C,,ecg_null,,I3,fusion_implementation_gap_nats,7.0937947918398e-05,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I0,oracle_piv_nats,0.106979070146973,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I0,implemented_ifv_nats,-0.00868211197729309,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I0,fusion_implementation_gap_nats,0.115661182124266,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I1,oracle_piv_nats,0.0623716587048309,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I1,implemented_ifv_nats,-0.0156018479254892,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I1,fusion_implementation_gap_nats,0.0779735066303201,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I2,oracle_piv_nats,0.0222777634261652,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I2,implemented_ifv_nats,-0.0110428118949488,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I2,fusion_implementation_gap_nats,0.033320575321114,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I3,oracle_piv_nats,0.00421829626486051,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I3,implemented_ifv_nats,-0.00319076044718534,,,,,Prespecified known-truth simulation aggregate
+2,D,,implementation_failure,,I3,fusion_implementation_gap_nats,0.00740905671204585,,,,,Prespecified known-truth simulation aggregate
+2,G,,,,,gate_pass_count,9,,,,PASS,All nine prespecified recovery gates passed
+3,A,perioperative_ecg,,train,I0,implemented_ifv_normalized,0.0485053534435,0.0341699101961,0.0623390863984,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,train,I1,implemented_ifv_normalized,0.0236404166426,0.00914599227544,0.0383410159818,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,train,I2,implemented_ifv_normalized,-0.00501130072806,-0.0136495546879,0.00368561473326,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,train,I3,implemented_ifv_normalized,-0.00417136238988,-0.0103693809871,0.00213007352873,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,cal,I0,implemented_ifv_normalized,0.0432224028791,0.0174375564387,0.06990954627,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,cal,I1,implemented_ifv_normalized,0.0241092983479,-0.00217232142748,0.0511796770291,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,cal,I2,implemented_ifv_normalized,0.00616374466558,-0.00862311492359,0.0206096543864,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,cal,I3,implemented_ifv_normalized,0.00634540761702,-0.00533580645087,0.0180257757279,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,lte,I0,implemented_ifv_normalized,0.0438617497191,0.0182614363692,0.0696225540274,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,lte,I1,implemented_ifv_normalized,0.0238150744456,-0.00436257912126,0.0516828200867,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,lte,I2,implemented_ifv_normalized,0.00832750098875,-0.0075486400367,0.0231764280852,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,A,perioperative_ecg,,lte,I3,implemented_ifv_normalized,0.00595303083113,-0.00565149258944,0.0181405360783,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,train,I0,implemented_ifv_normalized,0.0471048619158,0.0236812652315,0.0706894112727,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,train,I1,implemented_ifv_normalized,0.0512256610448,0.0282078823096,0.0747356427911,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,train,I2,implemented_ifv_normalized,-0.00695389535227,-0.0145242637411,0.000399705035406,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,train,I3,implemented_ifv_normalized,-0.00233845238772,-0.00802942859171,0.00298128598634,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,cal,I0,implemented_ifv_normalized,0.0743120585074,0.0392290499208,0.106897667277,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,cal,I1,implemented_ifv_normalized,0.0637870852478,0.0226630634126,0.102828616894,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,cal,I2,implemented_ifv_normalized,0.000873987258248,-0.0121424976242,0.0142842965185,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,cal,I3,implemented_ifv_normalized,0.00311170649727,-0.00573913669035,0.0122030205835,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,lte,I0,implemented_ifv_normalized,0.0567739892949,0.021767417507,0.0903325227856,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,lte,I1,implemented_ifv_normalized,0.0569072081906,0.0183218214615,0.0962821681012,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,lte,I2,implemented_ifv_normalized,-0.0030997709063,-0.0141824926827,0.00824666067009,,,Pointwise confidence interval; not family-wise simultaneous inference
+3,B,cardiac_surgery,,lte,I3,implemented_ifv_normalized,-0.00172347086245,-0.00936872096727,0.00587650488686,,,Pointwise confidence interval; not family-wise simultaneous inference
+4,A,perioperative_ecg,,train,I0,implemented_ifv_nats,0.0328733703875,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I0,model_class_attainable_value_nats,0.03944362448,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I0,model_class_gap_nats,0.006570254092,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I1,implemented_ifv_nats,0.0160217402253,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I1,model_class_attainable_value_nats,0.025055483514,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I1,model_class_gap_nats,0.009033743289,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I2,implemented_ifv_nats,-0.00339629202266,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I2,model_class_attainable_value_nats,-0.017474903713,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I2,model_class_gap_nats,-0.014078611691,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I3,implemented_ifv_nats,-0.00282704343187,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I3,model_class_attainable_value_nats,-0.006290435255,,,,,Signed train-OOF descriptive contrast
+4,A,perioperative_ecg,,train,I3,model_class_gap_nats,-0.003463391823,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I0,implemented_ifv_nats,0.00752961802926,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I0,model_class_attainable_value_nats,0.009959365389,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I0,model_class_gap_nats,0.00242974736,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I1,implemented_ifv_nats,0.00818831953383,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I1,model_class_attainable_value_nats,0.01237432878,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I1,model_class_gap_nats,0.004186009246,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I2,implemented_ifv_nats,-0.00111156627338,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I2,model_class_attainable_value_nats,-0.002354872552,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I2,model_class_gap_nats,-0.001243306279,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I3,implemented_ifv_nats,-0.000373796940337,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I3,model_class_attainable_value_nats,-0.001064065212,,,,,Signed train-OOF descriptive contrast
+4,B,cardiac_surgery,,train,I3,model_class_gap_nats,-0.000690268272,,,,,Signed train-OOF descriptive contrast
+3,A,perioperative_ecg,,train,,implemented_saturation_normalized,0.040664216602,0.030695177906,0.0502617707393,,,Low-information minus high-information implemented value; pointwise interval
+3,A,perioperative_ecg,,cal,,implemented_saturation_normalized,0.0274112744722,0.00941543138402,0.0468286641835,,,Low-information minus high-information implemented value; pointwise interval
+3,A,perioperative_ecg,,lte,,implemented_saturation_normalized,0.0266981461724,0.00735715615231,0.0452300469738,,,Low-information minus high-information implemented value; pointwise interval
+3,B,cardiac_surgery,,train,,implemented_saturation_normalized,0.0538114353503,0.0335561960248,0.0747443922375,,,Low-information minus high-information implemented value; pointwise interval
+3,B,cardiac_surgery,,cal,,implemented_saturation_normalized,0.0670567249998,0.0332150698061,0.0986128130704,,,Low-information minus high-information implemented value; pointwise interval
+3,B,cardiac_surgery,,lte,,implemented_saturation_normalized,0.0592522196271,0.0280947970147,0.0911200584526,,,Low-information minus high-information implemented value; pointwise interval
+5,A,perioperative_ecg,,train,I0,configuration_ifv_nats,0.0328733703875,0.0232470795501,0.0422278261046,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,train,I1,configuration_ifv_nats,0.0160217402253,0.00620146246902,0.0260493902741,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,train,I2,configuration_ifv_nats,-0.00339629202266,-0.00924195579228,0.0025047312779,no_positive_implemented_value,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,train,I3,configuration_ifv_nats,-0.00282704343187,-0.00701342646638,0.00143466529476,no_positive_implemented_value,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,cal,I0,configuration_ifv_nats,0.0291162922335,0.0118069790129,0.0472048339162,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,cal,I1,configuration_ifv_nats,0.0162409613877,-0.00148054665743,0.0343604255357,selective_or_local_validation,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,cal,I2,configuration_ifv_nats,0.00415213821957,-0.00577774559407,0.0138019874619,selective_or_local_validation,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,cal,I3,configuration_ifv_nats,0.00427451345162,-0.00356325071218,0.0120789347579,selective_or_local_validation,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,lte,I0,configuration_ifv_nats,0.0296860780961,0.0123887629136,0.0469341143541,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,lte,I1,configuration_ifv_nats,0.0161182844822,-0.0029414677822,0.0345816262555,selective_or_local_validation,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,lte,I2,configuration_ifv_nats,0.00563613732422,-0.00515479684257,0.0157026965463,selective_or_local_validation,,Descriptive configuration; pointwise interval
+5,A,perioperative_ecg,,lte,I3,configuration_ifv_nats,0.00402907178335,-0.00383880342593,0.012271127921,selective_or_local_validation,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,train,I0,configuration_ifv_nats,0.00752961802926,0.00364087246277,0.0116683462304,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,train,I1,configuration_ifv_nats,0.00818831953383,0.00435432714908,0.01246733896,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,train,I2,configuration_ifv_nats,-0.00111156627338,-0.00231446000516,6.51103435397e-05,no_positive_implemented_value,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,train,I3,configuration_ifv_nats,-0.000373796940337,-0.00128701457383,0.00047609595157,no_positive_implemented_value,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,cal,I0,configuration_ifv_nats,0.0117718155558,0.00569439345581,0.0181360733499,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,cal,I1,configuration_ifv_nats,0.0101045485411,0.0035239323817,0.0170402487805,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,cal,I2,configuration_ifv_nats,0.000138448819867,-0.00200870538373,0.00216605941313,selective_or_local_validation,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,cal,I3,configuration_ifv_nats,0.000492927200315,-0.000943111253552,0.0019035751666,selective_or_local_validation,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,lte,I0,configuration_ifv_nats,0.0145087878663,0.00537261598648,0.0238974542862,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,lte,I1,configuration_ifv_nats,0.0145428324124,0.00444145037354,0.0255585718821,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,lte,I2,configuration_ifv_nats,-0.000792157096446,-0.00361371217886,0.0020916937056,no_positive_implemented_value,,Descriptive configuration; pointwise interval
+5,B,cardiac_surgery,,lte,I3,configuration_ifv_nats,-0.000440438895478,-0.00238078494491,0.00153356336496,no_positive_implemented_value,,Descriptive configuration; pointwise interval
+5,C,,,,,operating_gate,,,,G3 transport,PASS,Cross-task transport of the task-level information pattern passed
+5,C,,,,,operating_gate,,,,G2 stress,FAIL,Prespecified engineering stress robustness was not established
+5,C,,,,,operating_gate,,,,P19 localization,PARTIAL,Physiological-domain localization remained partially identifiable
+
