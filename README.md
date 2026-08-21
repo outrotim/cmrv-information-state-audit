@@ -2,12 +2,12 @@
 
 Minimal public assets accompanying the manuscript **“When Is ECG Still Worth Fusing? An Information-State Audit of Residual Modality Value and Fusion Failure Across Perioperative Tasks.”**
 
-The repository exposes the formula-level clinical-information-conditioned modality residual value (CMRV) audit and the publication-level aggregates needed to recreate the five main figures. It does not expose patient-level data or the governed clinical model-development pipeline.
+The repository exposes the formula-level clinical-information-conditioned modality residual value (CMRV) audit and the publication-level aggregates needed to create publication-equivalent versions of the five main figures. It does not expose patient-level data or the governed clinical model-development pipeline; exact journal-layout bytes are not claimed.
 
 ## Repository contents
 
 - `src/cmrv_metrics.py` — formula-level implementations of implemented fusion value, oracle potential information value, fusion implementation gap, entropy normalization, and information saturation.
-- `scripts/reproduce_main_figures.py` — recreates Figures 1–5 from the public aggregate CSV.
+- `scripts/reproduce_main_figures.py` — creates publication-equivalent versions of Figures 1–5 from the public aggregate CSV.
 - `data/cmrv_published_aggregate_results.csv` — aggregate estimates and pointwise confidence intervals already reported in the article.
 - `requirements.txt` — versions used to verify the public figure-reproduction script.
 - `LICENSE` — MIT License for code.
@@ -52,4 +52,3 @@ Code is released under the MIT License. `data/cmrv_published_aggregate_results.c
 ## Citation
 
 Please cite the accompanying manuscript. Author, journal, year, DOI, and final bibliographic details will be added after publication; no DOI has been assigned at the time of this public release.
-
