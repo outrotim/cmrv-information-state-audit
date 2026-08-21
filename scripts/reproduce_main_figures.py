@@ -262,7 +262,15 @@ def figure_5(frame: pd.DataFrame) -> None:
         axis.imshow(matrix, cmap=cmap, vmin=-0.5, vmax=2.5, aspect="auto")
         for row_index in range(matrix.shape[0]):
             for column_index in range(matrix.shape[1]):
-                axis.text(column_index, row_index, f"{estimates[row_index, column_index]:+.3f}", ha="center", va="center", fontsize=7.2)
+                category = categories[int(matrix[row_index, column_index])]
+                code = {
+                    "engineering_and_local_validation_priority": "P",
+                    "selective_or_local_validation": "S",
+                    "no_positive_implemented_value": "C",
+                }[category]
+                text_color = "white" if code in {"P", "C"} else "#332A00"
+                axis.text(column_index, row_index - 0.12, code, ha="center", va="center", fontsize=10, weight="bold", color=text_color)
+                axis.text(column_index, row_index + 0.16, f"{estimates[row_index, column_index]:+.3f}", ha="center", va="center", fontsize=7.2, color=text_color)
         axis.set_xticks(range(4), TIER_ORDER)
         axis.set_yticks(range(3))
         if panel == 0:
@@ -272,24 +280,29 @@ def figure_5(frame: pd.DataFrame) -> None:
             axis.tick_params(axis="y", length=0)
         axis.set_title(f"{'AB'[panel]}  {task_titles[task]}", loc="left", weight="bold")
     gate_axis = fig.add_subplot(grid[1, :])
-    expected_gates = {"G3 transport": "PASS", "G2 stress": "FAIL", "P19 localization": "PARTIAL"}
+    expected_gates = {
+        "Clean signal": "REPLICATED",
+        "G3 transport": "PASS",
+        "G2 stress": "FAIL",
+        "P19 localization": "PARTIAL",
+    }
     for index, (label, expected_status) in enumerate(expected_gates.items()):
         row = gates[gates["category"] == label]
         if len(row) != 1 or row.iloc[0]["status"] != expected_status:
             raise ValueError(f"operating gate changed: {label}")
-        color = GREEN if expected_status == "PASS" else RED if expected_status == "FAIL" else GOLD
-        x = 0.08 + index * 0.31
-        gate_axis.add_patch(FancyBboxPatch((x, 0.28), 0.25, 0.48, boxstyle="round,pad=0.02", fc=mpl.colors.to_rgba(color, 0.12), ec=color))
-        gate_axis.text(x + 0.125, 0.58, label, ha="center", va="center", weight="bold")
-        gate_axis.text(x + 0.125, 0.40, expected_status, ha="center", va="center", color=color, weight="bold")
+        color = GREEN if expected_status in {"PASS", "REPLICATED"} else RED if expected_status == "FAIL" else GOLD
+        x = 0.035 + index * 0.242
+        gate_axis.add_patch(FancyBboxPatch((x, 0.28), 0.205, 0.48, boxstyle="round,pad=0.02", fc=mpl.colors.to_rgba(color, 0.12), ec=color))
+        gate_axis.text(x + 0.1025, 0.58, label, ha="center", va="center", weight="bold")
+        gate_axis.text(x + 0.1025, 0.40, expected_status, ha="center", va="center", color=color, weight="bold")
     gate_axis.text(0.5, 0.06, "Task-level evidence only; no patient-level acquisition, treatment, workflow, or deployment claim", ha="center", color=GRAY, fontsize=8)
     gate_axis.set_title("C  Frozen operating envelope", loc="left", weight="bold")
     gate_axis.axis("off")
     fig.legend(
         handles=[
-            Patch(facecolor=GREEN, label="Engineering/local-validation priority"),
-            Patch(facecolor=GOLD, label="Selective/local validation"),
-            Patch(facecolor=LIGHT_GRAY, label="No positive implemented value"),
+            Patch(facecolor=GREEN, label="P  Positive implemented value"),
+            Patch(facecolor=GOLD, label="S  Selective/local validation"),
+            Patch(facecolor=LIGHT_GRAY, label="C  Clinical-only favored in this implementation"),
         ],
         loc="lower center",
         ncol=3,
