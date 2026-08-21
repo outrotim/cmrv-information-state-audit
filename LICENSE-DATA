@@ -1,0 +1,15 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The file data/cmrv_published_aggregate_results.csv is licensed under the
+Creative Commons Attribution 4.0 International License.
+
+You are free to share and adapt the licensed material for any purpose, provided
+that appropriate credit is given, a link to the license is supplied, and any
+changes are indicated. No additional restrictions may be applied.
+
+License summary: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+This license applies only to the aggregate CSV in this repository. It does not
+apply to patient-level source data or alter the terms of use for VitalDB,
+MIMIC-IV, MIMIC-IV-ECG, or any other source dataset.
