@@ -138,7 +138,7 @@ figure,panel,task,scenario,stage,tier,metric,estimate,ci_lower,ci_upper,category
 5,B,cardiac_surgery,,lte,I1,configuration_ifv_nats,0.0145428324124,0.00444145037354,0.0255585718821,engineering_and_local_validation_priority,,Descriptive configuration; pointwise interval
 5,B,cardiac_surgery,,lte,I2,configuration_ifv_nats,-0.000792157096446,-0.00361371217886,0.0020916937056,no_positive_implemented_value,,Descriptive configuration; pointwise interval
 5,B,cardiac_surgery,,lte,I3,configuration_ifv_nats,-0.000440438895478,-0.00238078494491,0.00153356336496,no_positive_implemented_value,,Descriptive configuration; pointwise interval
+5,C,,,,,operating_gate,,,,Clean signal,REPLICATED,Positive lower-information value was replicated in both tasks
 5,C,,,,,operating_gate,,,,G3 transport,PASS,Cross-task transport of the task-level information pattern passed
 5,C,,,,,operating_gate,,,,G2 stress,FAIL,Prespecified engineering stress robustness was not established
 5,C,,,,,operating_gate,,,,P19 localization,PARTIAL,Physiological-domain localization remained partially identifiable
-
